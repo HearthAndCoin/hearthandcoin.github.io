@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@300;400;600&display=swap");
+
+:root {
+  --green: #2F3A32;
+  --gold: #D9A441;
+  --cream: #F4EEE2;
+  --brown: #5A3523;
+  --ink: #2B2620;
+  --muted: #6B5E52;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--cream);
+  color: var(--ink);
+  font: 300 17px/1.65 "Poppins", system-ui, sans-serif;
+}
+
+a { color: var(--brown); text-underline-offset: 3px; }
+h1, h2 { font-family: "DM Serif Display", Georgia, serif; font-weight: 400; color: var(--green); line-height: 1.2; }
+h1 { font-size: 2.4rem; margin: 0.2em 0; }
+h2 { font-size: 1.5rem; margin: 1.8em 0 0.4em; }
+strong { font-weight: 600; }
+ul { padding-left: 1.2em; }
+li { margin: 0.35em 0; }
+
+.bar { background: var(--green); padding: 12px 16px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; color: var(--gold); text-decoration: none;
+         font: 400 1.3rem "DM Serif Display", Georgia, serif; }
+
+.page { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+.meta { color: var(--muted); margin-top: 0; }
+
+.hero { max-width: 640px; margin: 0 auto; padding: 72px 16px 48px; text-align: center; }
+.hero img { display: block; margin: 0 auto 8px; }
+.tag { color: var(--muted); font-size: 0.95rem; letter-spacing: 0.04em; margin-top: 0; }
+.button { display: inline-block; margin-top: 8px; padding: 12px 26px; border-radius: 999px; background: var(--green);
+          color: var(--cream); text-decoration: none; font-weight: 400; }
+.button:hover { background: var(--brown); }
+.small { font-size: 0.9rem; color: var(--muted); }
+
+.foot { text-align: center; padding: 24px 16px 40px; font-size: 0.85rem; color: var(--muted); }
